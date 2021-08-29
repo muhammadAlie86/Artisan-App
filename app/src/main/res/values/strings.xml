@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Artisan</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="image_user">image user</string>
+    <string name="username">username</string>
+    <string name="description">description</string>
+    <string name="detail">Detail</string>
+    <string name="profile">Profile</string>
+    <string name="image_logo">image logo</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="image_detail">image detail</string>
+    <string name="services">Services</string>
+    <string name="image_profile">image profile</string>
+    <string name="birt_of_date">Birt of date</string>
+    <string name="email">Email</string>
+    <string name="caption">caption</string>
+    <string name="price">price</string>
+    <string name="login_failed">login failed</string>
+    <string name="login_successfully">login successfully</string>
+    <string name="search">Search</string>
+    <string name="image_to_move_profile">image to move profile</string>
+</resources>
