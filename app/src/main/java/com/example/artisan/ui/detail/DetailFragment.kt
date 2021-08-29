@@ -21,7 +21,6 @@ class DetailFragment : Fragment() {
 
     private val detailViewModel : DetailViewModel by viewModel()
     private val args : DetailFragmentArgs by navArgs()
-    private lateinit var servicesAdapter: DetailServicesAdapter
     private var _binding: FragmentDetailBinding? = null
     private val binding  get() = _binding!!
 
@@ -43,7 +42,6 @@ class DetailFragment : Fragment() {
             findNavController().navigateUp()
         }
 
-        servicesAdapter = DetailServicesAdapter()
         val artisanId = args.data?.id
         if (artisanId != null) {
             detailViewModel.getArtisanById(artisanId).observe(viewLifecycleOwner, { detail ->
